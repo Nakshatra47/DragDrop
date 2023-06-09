@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>DRAG AND DROP</h2>
+  </div>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="item" draggable="true">
+        Text 1
+      </div>
+      <div class="item" draggable="true">
+        Text 2
+      </div>
+      <div class="item" draggable="true">
+        Text 3
+      </div>
+      <div class="item" draggable="true">
+        <img src="./img/cloudy.jpg" alt="Image 1">
+      </div>
+      <div class="item" draggable="true">
+        <img src="./img/rainy.jpg" alt="Image 2">
+      </div>
+      <div class="item" draggable="true">
+        <img src="./img/snow.jpg" alt="Image 3">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="dropzone empty"></div>
+    </div>
+  </div>
+
+  <div class="reset-container">
+    <button onclick="reset()">Reset</button>
+  </div>
+
+  <div class="message-box"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
